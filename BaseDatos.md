@@ -58,12 +58,7 @@ Buscar en el archivo el bloque:
 ```sql
 -- CHANGE MASTER TO MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=328;
 ```
-Guardar esta información.
 
-# Prueba de replicación entre Maestro y Esclavo
-
-## 1. Insertar datos en el Maestro
-En el servidor maestro (192.168.1.104), ejecuta:
 
 
 
