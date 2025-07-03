@@ -20,7 +20,7 @@ network:
   ethernets:
     enp0s3:
       dhcp4: false
-      addresses: [192.168.1.101/24]
+      addresses: [192.168.105.10/24]
       routes:
       - to: default
         via: 192.168.105.10
